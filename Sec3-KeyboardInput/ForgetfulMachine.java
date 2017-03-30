@@ -11,15 +11,15 @@ public class ForgetfulMachine {
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println("Give me a word ");
+		System.out.println("Give me a word");
 		keyboard.next();
-		System.out.println("Give me another word ");
+		System.out.println("Give me another word");
 		keyboard.next();
-		System.out.println("Great, now favorite number? ");
+		System.out.println("Great, now favorite number?");
 		keyboard.next();
-		System.out.println("And your second-favorite number... ");
+		System.out.println("And your second-favorite number...");
 		keyboard.next();
-		System.out.println("Whew! Wasn't that fun? ");
+		System.out.println("Whew! Wasn't that fun?");
 	}
 
 }
