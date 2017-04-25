@@ -18,7 +18,7 @@ age = raw_input()
 print ""
 if age < "16":
     print "You can't drive, %s." % name
-elif age == "16" or age < "17":
+elif age == "16" or age == "17":
     print "You can drive but not vote, %s" % name
 elif age < "18":
     print "You can't vote, %s." % name
