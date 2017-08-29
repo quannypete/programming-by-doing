@@ -37,5 +37,5 @@ public class BMICategories {
         if (BMI >= 30.0) {
             return "obese";
         }
-        return null; // Should not reach there
+        return null; 
     }
