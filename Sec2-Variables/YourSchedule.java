@@ -1,14 +1,13 @@
-
+/**
+* 	https://programmingbydoing.com/a/your-schedule.html
+* Use several variables to store the names of your classes and their teachers. Then, display a nice little table
+* displaying your schedule. Just FYI, my column of courses has a width of 26 characters, and the teacher column has
+* a width of 15. The first and last lines are a plus sign, fifty dashes (a.k.a. minus signs) and another plus sign.
+* Your table doesn't need to look exactly like this, or even line up. I used a total of sixteen variables (course1,
+* course2, ... course8, teacher1, teacher2, etc.). You should do the same.
+*/
 public class YourSchedule {
-	public static void main(String [] args) {
-	/**
-	 * 	https://programmingbydoing.com/a/your-schedule.html
-	 * Use several variables to store the names of your classes and their teachers. Then, display a nice little table
-	 * displaying your schedule. Just FYI, my column of courses has a width of 26 characters, and the teacher column has
-	 * a width of 15. The first and last lines are a plus sign, fifty dashes (a.k.a. minus signs) and another plus sign.
-	 * Your table doesn't need to look exactly like this, or even line up. I used a total of sixteen variables (course1,
-	 * course2, ... course8, teacher1, teacher2, etc.). You should do the same.
-	 */
+	public static void main(String [] args) 
 		
 		String course1 = "English";
 		String course2 = "Calculus";
