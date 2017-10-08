@@ -1,7 +1,4 @@
-
-public class UsingVariables {
-	public static void main( String[] args){
-		/**
+/**
 		 * Using Variables
 		 * http://programmingbydoing.com/a/using-variables.html
 		 * Write a program that creates three variables: an int, a double, and a String.
@@ -10,7 +7,10 @@ public class UsingVariables {
 		 * Then, display the values of these three variables on the screen, one per line.
 		 * You must use three variables. Your program will probably have nine lines of code inside the curly braces of main().
 		 */
-		
+
+public class UsingVariables {
+	public static void main( String[] args){
+	
 		int a= 113;
 		double b=  2.71828;
 		String subject= "Computer Science";
