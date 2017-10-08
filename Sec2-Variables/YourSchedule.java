@@ -6,6 +6,7 @@
 * Your table doesn't need to look exactly like this, or even line up. I used a total of sixteen variables (course1,
 * course2, ... course8, teacher1, teacher2, etc.). You should do the same.
 */
+
 public class YourSchedule {
 	public static void main(String [] args) 
 		
