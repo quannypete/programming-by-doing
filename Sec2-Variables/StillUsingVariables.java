@@ -1,8 +1,4 @@
-
-public class StillUsingVariables {
-	public static void main( String[] args) {
-		
-		/**
+/**
 		 * Still Using Variables
 		 * http://programmingbydoing.com/a/still-using-variables.html
 		 * Write a program that stores your name and year of graduation into variables, and displays their values on the screen.
@@ -10,6 +6,9 @@ public class StillUsingVariables {
 		 * variable, and that the variable that holds the year is the best type for that variable.
 		 * Also make sure that your variable names are good: the name of a variable should always relate to its contents.
 		 */
+
+public class StillUsingVariables {
+	public static void main( String[] args) {
 		
 		String name = "Quanny Hampton";
 		int gradYear = 2020;
