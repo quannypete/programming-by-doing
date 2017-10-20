@@ -1,13 +1,13 @@
+/**
+* Name, Age, and Salary
+* http://programmingbydoing.com/a/name-age-and-salary.html
+* Ask the user for their name. Then display their name to prove that you can recall it. Ask them for their age. Then
+* display that. Finally, ask them for how much they make and display that. You should use the most appropriate data
+* type for each variable.
+*/
 import java.util.Scanner;
 public class NameAgeandSalary {
 	public static void main(String[] args){
-		/**
-		 * Name, Age, and Salary
-		 * http://programmingbydoing.com/a/name-age-and-salary.html
-		 * Ask the user for their name. Then display their name to prove that you can recall it. Ask them for their age. Then
-		 * display that. Finally, ask them for how much they make and display that. You should use the most appropriate data
-		 * type for each variable.
-		 */
 		
 		Scanner keyboard = new Scanner(System.in);
 		
