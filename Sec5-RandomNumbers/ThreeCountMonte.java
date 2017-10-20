@@ -1,3 +1,11 @@
+/*
+* Three Card Monte
+* https://programmingbydoing.com/a/three-card-monte.html
+* This is the original "ball and cups" game where you try to find out which cup has the ball under it.
+* You may play with three cups and a ball, three cards (two jacks and an ace), or three doors and a car.
+* Basically, randomly select a cup to hide the "ball". Let the player guess which cup hides the ball.
+* The player wins if they guess correctly.
+*/
 import java.util.Scanner;
 import java.util.Random;
 public class ThreeCountMonte {
