@@ -1,18 +1,18 @@
+/**
+* More User Input of Data
+* http://programmingbydoing.com/a/more-user-input-of-data.html
+* Ask the user for several pieces of information, and display them on the screen afterward as a summary.
+* - first name
+* - last name
+* - grade (classification)
+* - student id number
+* - login name
+* - GPA (0.0 to 4.0)
+* You must use the most appropriate type for each variable and not just Strings for everything.
+*/
 import java.util.Scanner;
 public class MoreUserInputofData {
 	public static void main(String [] args){
-		/**
-		 * More User Input of Data
-		 * http://programmingbydoing.com/a/more-user-input-of-data.html
-		 * Ask the user for several pieces of information, and display them on the screen afterward as a summary.
-		 * - first name
-		 * - last name
-		 * - grade (classification)
-		 * - student id number
-		 * - login name
-		 * - GPA (0.0 to 4.0)
-		 * You must use the most appropriate type for each variable and not just Strings for everything.
-		 */
 		
 		Scanner keyboard = new Scanner(System.in);
 		
