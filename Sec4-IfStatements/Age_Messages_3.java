@@ -1,8 +1,4 @@
-import java.util.Scanner;
-public class Age_Messages_3 {
-	public static void main(String [] args){
-		
- /**
+/**
  * Age Messages 3
  * http://programmingbydoing.com/a/age-messages-3.html
  * Using if statements with compound conditions (like &&), make a program that displays a single message depending on
@@ -16,6 +12,9 @@ public class Age_Messages_3 {
  * You can make up your own messages if you want, but you must have at least four messages, and you must use &&
  * statements to make sure only one of the messages is printed for any given age.
  */
+import java.util.Scanner;
+public class Age_Messages_3 {
+	public static void main(String [] args){
 		
 		Scanner keyboard= new Scanner(System.in);
 		String name ;
