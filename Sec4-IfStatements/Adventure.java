@@ -1,13 +1,13 @@
+/**
+* Choose Your Own Adventure!
+* http://programmingbydoing.com/a/choose-your-own-short-adventure.html
+* Make a short "Choose Your Own Adventure" game. The starting room should give the user two choices. 
+* Then the second room they travel to should give them two more choices. Finally the third room should 
+* give them two choices.
+*/
 import java.util.Scanner;
 public class Adventure {
 	public static void main(String [] args){
-		/**
-		 * Choose Your Own Adventure!
-		 * http://programmingbydoing.com/a/choose-your-own-short-adventure.html
-		 * Make a short "Choose Your Own Adventure" game. The starting room should give the user two choices. 
-		 * Then the second room they travel to should give them two more choices. Finally the third room should 
-		 * give them two choices.
-		 */
 		
 		Scanner keyboard = new Scanner(System.in);
 		String room, choice1, choice2;
