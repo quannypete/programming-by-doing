@@ -1,7 +1,8 @@
 /*
-* Modify your incredibly stupid number-guessing game to actually pick a random
-* number from 1 to 10 and have the user try to guess that. Tell them if they get it
-* right or wrong, and if they get it wrong, show them what the random number was.
+* A Number-Guessing Game
+* https://programmingbydoing.com/a/a-number-guessing-game.html
+* Modify your incredibly stupid number-guessing game to actually pick a randomnumber from 1 to 10 and have the user try to guess that. 
+* Tell them if they get it right or wrong, and if they get it wrong, show them what the random number was.
 * They will still only get one try.
 */
 import java.util.Scanner;
