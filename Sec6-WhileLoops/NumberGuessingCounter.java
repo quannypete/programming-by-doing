@@ -3,7 +3,7 @@
 * https://programmingbydoing.com/a/number-guessing-with-a-counter.html
 * Modify your previous number-guessing game so that they can guess until they get it right AND count the number of tries it takes them to guess it. 
 * They will still only get one try.
-
+*/
 
 import java.util.Scanner;
 import java.util.Random;
