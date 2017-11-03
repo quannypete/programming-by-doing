@@ -1,3 +1,12 @@
+/*
+* How Many Times?
+* https://programmingbydoing.com/a/how-many-times.html
+* Create an array that can hold ten integers, and fill each slot with a different random value from 1-50.
+* Display those values on the screen, and then prompt the user for an integer. 
+* Search through the array, and count the number of times the item is found.
+*/
+
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -23,7 +32,6 @@ public class  HowMany{
 
     for(int i = 0; i < arr.length;i++){
       if(searchkey == arr[i]){
-        System.out.println(searchkey + " is in the array.");
         found++;
       }
     }
