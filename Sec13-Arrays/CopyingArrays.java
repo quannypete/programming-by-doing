@@ -1,3 +1,12 @@
+/*
+* Copying Arrays
+* hhttps://programmingbydoing.com/a/copying-arrays.html
+* Write a program that creates an array of ten integers.
+* It should put ten random numbers from 1 to 100 in the array.
+* It should copy all the elements of that array into another array of the same size.
+* Change the last value in the first array to a -7.
+* Display the contents of both arrays.
+*/
 
 import java.util.Random;
 
