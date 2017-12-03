@@ -1,3 +1,13 @@
+/**
+* Area Calculator
+* https://programmingbydoing.com/a/area-calculator.html
+* Write a program to calculate the area of four different geometric shapes: triangles, squares, rectangles, and circles.
+* You must use functions. 
+* Your program should present a menu for the human to choose which shape to calculate, then ask them for the appropriate values (length, width, radius, etc.).
+* Then it should pass those values to the appropriate function and display the resulting area.
+*/
+
+
 import java.util.Scanner;
 public class AreaCalculator{
 
