@@ -1,20 +1,19 @@
+/**
+* Twenty Questions... well, actually just Two
+* http://programmingbydoing.com/a/twenty-questions.html
+* Make a program which plays a simple game of 2 Questions. 
+* The first question should be "animal, vegetable, or mineral?" Then, the second question should be "is it bigger than a breadbox?" 
+*Then, display one of six possible responses, depending on their answers. You can choose what answers to give for each of the six possibilities.
+* Here's a suggestion:
+* size \ type	            animal	 vegetable	mineral
+* smaller than a breadbox	squirrel	carrot	paper clip
+* bigger than a breadbox	moose	watermelon	Camaro
+* You will use nested if statements to do this.
+*/
+
 import java.util.Scanner;
 public class TwoQuestions {
 	public static void main(String [] args){
-		
-		/**
-		 * Twenty Questions... well, actually just Two
-		 * http://programmingbydoing.com/a/twenty-questions.html
-		 * Make a program which plays a simple game of 2 Questions. The first question should be "animal, vegetable, or
-		 * mineral?" Then, the second question should be "is it bigger than a breadbox?" Then, display one of six possible
-		 * responses, depending on their answers. You can choose what answers to give for each of the six possibilities.
-		 * Here's a suggestion:
-		 * size \ type	            animal	 vegetable	mineral
-		 * smaller than a breadbox	squirrel	carrot	paper clip
-		 * bigger than a breadbox	moose	watermelon	Camaro
-		 * You will use nested if statements to do this.
-		 */
-		
 		Scanner keyboard = new Scanner(System.in);
 		String type, size, guess = "";
 		
