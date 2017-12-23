@@ -1,17 +1,16 @@
 /**
  * Age Messages 3
  * http://programmingbydoing.com/a/age-messages-3.html
- * Using if statements with compound conditions (like &&), make a program that displays a single message depending on
- * the age given.
+ * Using if statements with compound conditions (like &&), make a program that displays a single message depending on the age given.
  * - age less than 16, say "You can't drive."
  * - age between 16 to 17, say "You can drive but not vote."
  * - age between 18 to 24, say "You can vote but not rent a car."
  * - age 25 or older, say "You can do pretty much anything."
- * This output of this assignment is identical to the "How Old Are You, Specifically" assignment. However, this time you
- * must accomplish it using if statements with compound conditions and you must not use else if or else.
- * You can make up your own messages if you want, but you must have at least four messages, and you must use &&
- * statements to make sure only one of the messages is printed for any given age.
+ * This output of this assignment is identical to the "How Old Are You, Specifically" assignment. 
+ * However, this time you must accomplish it using if statements with compound conditions and you must not use else if or else.
+ * You can make up your own messages if you want, but you must have at least four messages, and you must use && statements to make sure only one of the messages is printed for any given age.
  */
+
 import java.util.Scanner;
 public class Age_Messages_3 {
 	public static void main(String [] args){
