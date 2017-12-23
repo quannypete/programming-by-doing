@@ -1,3 +1,11 @@
+/**
+* A Little Quiz
+* https://programmingbydoing.com/a/a-little-quiz.html
+* Write an interactive quiz.
+* It should ask the user three multiple-choice or true/false questions about something.
+* It must keep track of how many they get wrong, and print out a "score" at the end.
+*/
+
 import java.util.Scanner;
 public class AlittleQuiz {
 	public static void main(String [] args){
