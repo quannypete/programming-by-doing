@@ -1,21 +1,18 @@
+/**
+* Two More Questions
+* http://programmingbydoing.com/a/two-more-questions.html
+* Using if statements with compound conditions (like &&), make a guessing game of two questions similar to the Twenty Questions assignment.
+* However, this time you must accomplish it using if statements with compound conditions and you must not use else if or else or nested ifs.
+* - Question 1: Does it belong inside or outside or both?
+* - Question 2: Is it alive?
+* Again, here are some sample responses, for the non-creative among you.
+* inside	        outside	    both
+* alive	    houseplant	    bison	    dog
+* not alive	shower curtain	billboard	cell phone
+ */
+
 import java.util.Scanner;
 public class Two_More_Questions {
-	
-	/**
-	 * Two More Questions
-	 * http://programmingbydoing.com/a/two-more-questions.html
-	 * Using if statements with compound conditions (like &&), make a guessing game of two questions similar to the Twenty
-	 * Questions assignment.
-	 * However, this time you must accomplish it using if statements with compound conditions and you must not use else if
-	 * or else or nested ifs.
-	 * - Question 1: Does it belong inside or outside or both?
-	 * - Question 2: Is it alive?
-	 * Again, here are some sample responses, for the non-creative among you.
-	 * 	            inside	        outside	    both
-	 * alive	    houseplant	    bison	    dog
-	 * not alive	shower curtain	billboard	cell phone
-	 */
-	
 	public static void main( String[] args){
 		Scanner keyboard= new Scanner(System.in);
 		String q1;
