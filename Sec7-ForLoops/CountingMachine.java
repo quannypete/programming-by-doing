@@ -1,3 +1,11 @@
+/*
+* Counting Machine
+* https://programmingbydoing.com/a/counting-machine.html
+* Write a program that gets an integer from the user.
+* Count from 0 to that number.
+* Use a for loop to do it.
+*/
+
 import java.util.Scanner;
 
 public class CountingMachine{
