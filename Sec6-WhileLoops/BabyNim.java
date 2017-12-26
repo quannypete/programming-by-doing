@@ -1,3 +1,11 @@
+/*
+* Baby Nim, aka Empty the Piles
+* https://programmingbydoing.com/a/baby-nim.html
+* Write a program that starts with three "piles" of 3 counters each.
+* Let the player choose piles and remove counters until all the piles are empty.
+* You do not need to check for errors like a wrong pile name, or if someone tries to take more counters from the pile than the pile has.
+*/
+
 import java.util.Scanner;
 
 public class BabyNim{
