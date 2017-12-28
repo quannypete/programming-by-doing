@@ -1,3 +1,11 @@
+/*
+* Counting Machine Revisited
+* https://programmingbydoing.com/a/counting-machine-revisited.html
+* Write a program that gets three integers from the user.
+* Count from the first number to the second number in increments of the third number. 
+* Use a for loop to do it.
+*/
+
 import java.util.Scanner;
 
 public class CountingMachine2{
