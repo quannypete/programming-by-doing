@@ -1,3 +1,14 @@
+/*
+* Letter at a Time
+* https://programmingbydoing.com/a/letter-at-a-time.html
+* Did you know that using a loop, you can examine a String one letter at a time? 
+* The two key built-in String methods are length() and charAt().
+* length() returns an int representing the total number of characters in the String (including punctuation and whitespace).
+* For example, if the variable str contains the String "hello", then str.length() will return 5.
+* charAt( int n ) returns the  nth character (char) in the String.
+* The character positions are zero-based, so if the variable str contains the String "ligature", then str.charAt(0) will return 'l', and str.charAt(4) will return 't'.
+*/
+
 import java.util.Scanner;
 
 public class LetterAtATime{
