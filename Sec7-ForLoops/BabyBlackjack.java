@@ -1,3 +1,13 @@
+/*
+* Baby Blackjack
+* https://programmingbydoing.com/a/baby-blackjack.html
+* Wrrite a program that allows a human user to play a single hand of "blackjack" against a dealer.
+* 1. Pick two values from 1-10 for the player. These are the player's "cards".
+* 2. Pick two more values from 1-10 for the dealer.
+* 3. Whoever has the highest total is the winner.
+* 4. There is no betting, no busting, and no hitting. Save that for real blackjack.
+*/
+
 import java.util.Random;
 
 public class BabyBlackjack{
