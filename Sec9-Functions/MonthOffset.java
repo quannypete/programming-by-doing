@@ -1,3 +1,10 @@
+/**
+* Month Offset
+* https://programmingbydoing.com/a/month-offset.html
+* Write a function to give you the "month offset" given a number representing the month. 
+*/
+
+
 public class MonthOffset
 {
 	public static int month_offset( int month )
