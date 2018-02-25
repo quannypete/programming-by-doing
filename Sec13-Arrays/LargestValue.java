@@ -1,3 +1,11 @@
+/*
+* Finding the Largest Value in an Array
+* https://programmingbydoing.com/a/finding-the-largest-value-in-an-array.html
+* Create an array that can hold ten integers, and fill each slot with a different random value from 1-10.
+* Display those values on the screen. 
+* Then use a linear search to find the largest value in the array, and display that value.
+*/
+
 import java.util.Random;
 
 public class LargestValue{
