@@ -19,6 +19,7 @@ public class IsItThere{
     Random rand = new Random();
     Scanner scan = new Scanner(System.in);
     int target;
+    boolean isPresent = false;
 
     System.out.println("Array: ");
     for(int i=0; i < myarr.length; i++){
@@ -35,15 +36,17 @@ public class IsItThere{
      for(int i = 0; i < myarr.length; i++){
 
        if( target == myarr[i]){
-         System.out.println(target + " is in the array.");
+         isPresent = true;
          break;
        }
-       else{
-         System.out.println(target + " is not in the array.");
-         break;
-       }
-     }
 
+     }
+     if(isPresent == true){
+       System.out.println(target + " is in the array.");
+     }
+     else{
+       System.out.println(target + " is not in the array.");
+     }
 
   }
 }
